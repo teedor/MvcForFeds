@@ -1,0 +1,6 @@
+﻿@model string
+@{
+    var values = ViewData.ModelMetadata.AdditionalValues;
+}
+    
+@Html.TextBoxFor(x => x, new { @class= "tagEditor" })

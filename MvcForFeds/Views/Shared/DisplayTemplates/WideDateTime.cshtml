@@ -1,0 +1,11 @@
+﻿@using MvcForFeds.Helpers
+@model DateTime?
+	
+@if (Model.HasValue)
+{
+    <span>On the @Model.Value.Day@DateStringHelpers.DaySuffix(Model.Value) day of @Model.Value.ToString("MMMM") in the year @Model.Value.Year</span>
+}
+else
+{
+    <span>No date entered!</span>
+}

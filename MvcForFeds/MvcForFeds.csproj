@@ -190,6 +190,11 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\site.js" />
+    <Content Include="Views\Shared\DisplayTemplates\Rating.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\StringList.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\WideDateTime.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\DateTime.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\TagEditor.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
