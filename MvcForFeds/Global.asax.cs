@@ -28,7 +28,7 @@ namespace MvcForFeds
                     Id = 1,
                     FirstName = "Harry",
                     LastName = "Potter",
-                    FavouriteThing = "Long fuckin boring movies",
+                    FavouriteThing = "Long boring movies",
                     Rating = 2,
                     Dislikes = new List<string>
                     {
