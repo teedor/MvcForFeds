@@ -17,6 +17,7 @@ namespace MvcForFeds.Models
 
         public string FavouriteThing { get; set; }
 
+        [UIHint("Rating")]
         public int Rating { get; set; }
 
         public List<string> Dislikes { get; set; }
@@ -25,6 +26,7 @@ namespace MvcForFeds.Models
         [RegularExpression(pattern: "^[0-9a-zA-Z]+(,[0-9a-zA-Z]+)*$")]
         public string DislikesInput { get; set; }
 
+        [UIHint("WideDateTime")]
         public DateTime? DateOfBirth { get; set; }
     }
 }
