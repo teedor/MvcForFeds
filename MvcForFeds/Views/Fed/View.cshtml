@@ -1,0 +1,53 @@
+﻿@model MvcForFeds.Models.FedViewModel
+
+@{
+    ViewBag.Title = "View";
+}
+
+<h2>View</h2>
+
+<div>
+    <h4>FedViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FavouriteThing)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FavouriteThing)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rating)
+        </dd>
+
+    </dl>
+</div>
+
+
+@Html.DisplayNameFor(x => x.Dislikes)
+@Html.DisplayFor(x => x.Dislikes)
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>
