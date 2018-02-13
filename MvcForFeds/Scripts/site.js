@@ -6,4 +6,6 @@
         buttonText: "Select date",
         dateFormat: "dd-MM-yy"
     });
+
+    $('.tagEditor').tagEditor();
 });
